@@ -1,0 +1,50 @@
+
+<html>
+<head>
+  <title>心知天气查询系统</title>
+  <style type="text/css">
+  body {
+    background-image: url("static/pics.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    }
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px
+  }
+  input[type=text] {
+    #width: 100%;
+      padding: 10px 30px;
+      margin: 8px 0;
+      box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: light-blue;
+      border: none;
+      color: white;
+      padding: 10px 6px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+	  </style>
+</head>
+<div style='text-align:center;'>
+<body>
+    <h1>天气查询系统</h1>
+    <form action='/' method='POST'>
+      <p>
+        <input type='text' name='city' placeholder="请输入要查询的城市名">
+        <input type="submit" name="action" value="查询">
+        <input type="submit" name="action" value="帮助">
+        <input type="submit" name="action" value="历史">
+      </p>
+    </form>
+{% block content %}
+{% endblock %}
+</body>
+</div>
+</html>

@@ -1,0 +1,28 @@
+ body {
+    background-image: url("static/pics.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    }
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px
+  }
+  input[type=text] {
+    #width: 100%;
+      padding: 10px 30px;
+      margin: 8px 0;
+      box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: light-blue;
+      border: none;
+      color: white;
+      padding: 10px 6px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }

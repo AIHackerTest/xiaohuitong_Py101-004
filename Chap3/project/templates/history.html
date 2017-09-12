@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+{% block content %}
+<h3 align='center'>已查询的历史信息：</h3>
+{% for item in history_list %}
+    <p align='center'>{{item}}</p>
+{% endfor %}
+{% endblock %}

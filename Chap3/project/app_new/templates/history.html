@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+{% block content %}
+历史信息:
+{% for item in history_list %}
+<p>{{item}}</p>
+{% endfor %}
+{% endblock %}
